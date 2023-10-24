@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.main-container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+
+.chat-container{
+    width:30em;
+    min-width:25em;
+    height:60vh;
+    border: 7px solid red;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.msgs{
+    padding:0.3em;
+    overflow-y:auto;
+}
+
+.msg-container{
+    border-bottom:2px solid black;
+    margin-top:0.5em;
+}
+
+.userId{
+    color:red;
+}
+
+
+.send-msgs{
+    padding:0.5em;
+    display:flex;
+    align-items: center;
+}
+
+
+.send-msgs input{
+    width:28em;
+    height:40px;
+}
+
+.send-msgs textarea{
+    resize:none;
+}
+
+.btn{
+   
+    cursor:pointer;
+    font-size:1.5rem;
+    text-align:center;
+    padding:10px;
+    background: rgb(0, 238, 255);
+    margin-left:10px;
+    border:none;
+    border-radius:5px;
+
+}
+
+.btn:hover{
+    /* border: 3px solid rgb(0,238,255); */
+    outline: rgb(0,238,255,0.5) solid 5px;
+}
+
+.refresh-btn {
+    margin-top: 1em;
+}
+
+
